@@ -710,7 +710,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         cap = f"𝐻e𝑦👋🏻  {message.from_user.mention},
     
-📬 𝑇𝑖𝑡𝑙𝑒 : {query}
+📬 𝑇𝑖𝑡𝑙𝑒 :<a {query}<a/>
 
 ©️ Powered By:  {message.chat.title}
 
