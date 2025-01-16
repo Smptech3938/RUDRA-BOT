@@ -6,7 +6,7 @@ class script(object):
 ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ : ༄ᶦᶰᵈ᭄✿®ⓤⒹ®Ⓐ࿐ ƬǤ♚ 
 
 <b> For More Details </b>
-Join <a href="https://t.me/CinemaaFestival">Cinemaa Festival</a> """
+Join <a href="https://t.me/CineHubs">Team CineHubs</a> """
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
@@ -47,7 +47,7 @@ Dᴇᴠᴇʟᴏᴘᴇʀ:
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/adx_army1_bot)</code>
+<code>[Button Text](buttonurl:https://t.me/smp_tg)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
