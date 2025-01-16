@@ -727,7 +727,15 @@ async def auto_filter(client, msg, spoll=False):
             logger.exception(e)
             await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn)) 
+
+     # Wait for 2 minute and delete the generated message
+    if generated_message:
+        await asyncio.sleep(120)
+        try:
+            await generated_message.delete()
+        except Exception as e:
+            logger.exception(f"Failed to delete message: {e}")
     if spoll:
         await msg.message.delete()
 
