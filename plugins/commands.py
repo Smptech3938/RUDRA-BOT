@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/TheBioscope')
+                InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/The_Bioscope')
             ],
             [
                 InlineKeyboardButton('🤔 Help ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/TheBioscope')
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/The_Bioscope')
             ],[
             InlineKeyboardButton('🤔 Help ', callback_data='help'),
             InlineKeyboardButton('♥️ About ', callback_data='about')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Search Here ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/TheBioscope')
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/The_Bioscope')
             ],[
             InlineKeyboardButton('🤔 Help ', callback_data='help'),
             InlineKeyboardButton('♥️ About ', callback_data='about')
@@ -242,7 +242,7 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
         buttons = [
         [
-             InlineKeyboardButton('♻ Join Group ♻', url='https://t.me/TheBioscope') 
+             InlineKeyboardButton('♻ Join Group ♻', url='https://t.me/The_Bioscope') 
         ]
         ]
     await client.send_cached_media(
